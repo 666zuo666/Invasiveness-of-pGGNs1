@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # Load the fetal state model
-model = joblib.load('./LightGBM.pkl')
+model = joblib.load('LightGBM.pkl')
 
 # Define feature names
 feature_names = [
