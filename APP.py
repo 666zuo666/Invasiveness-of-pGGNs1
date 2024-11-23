@@ -17,7 +17,7 @@ feature_names = [
 st.title("Invasion Predictor")
 
 # Input features
-ITH_score = st.number_input("ITH score:", min_value=0.01, max_value=1, value=1)
+ITH_score = st.number_input("ITH score:", min_value=0.0, max_value=1.0, value=0.41, step=0.01)
 Lesion_size= st.number_input("Lesion size:", min_value=1, max_value=30, value=12)
 Age= st.number_input("Age:", min_value=25, max_value=90, value=52)
 CT_value = st.number_input("CT value:", min_value=-800, max_value=-220, value=-320)
